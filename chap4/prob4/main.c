@@ -14,4 +14,4 @@ int main(int argc, char *argv[])
 		fprintf(fp, "%d %s %d", rec.id, rec.name,rec.score);
 	fclose(fp);
 	return 0;
-
+}
