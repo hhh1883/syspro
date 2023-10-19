@@ -13,7 +13,7 @@ int main(int argc,char* argv[])
          return 2; 
 }
      printf("--------------------------\n");
-     printf("%10s %6s\n", "StudentID","Name","Score");
+     printf("%10s %6s %6s\n", "StudentID","Name","Score");
      printf("--------------------------\n");
 
      while(fread(&rec,sizeof(rec),1,fp)>0)
